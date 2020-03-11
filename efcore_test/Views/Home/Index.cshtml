@@ -1,0 +1,35 @@
+﻿@model IEnumerable<efcore_test.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+    <div class="form-group">
+        <input type="button" value="Добавить" onclick="@("window.location.href='" + @Url.Action("Add", "Home") + "'");" class="btn-dark" />
+    </div>
+
+    <div>
+        <table>
+            @foreach (var emp in Model)
+            {
+            <tr>
+                <td>
+                    @emp.FirstName&#8194;
+                </td>
+                <td>
+                    @emp.LastName&#8194;
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@emp.Id">Изменить</a>&#8194;
+                </td>
+                <td>
+                    <a asp-action="Info" asp-route-id="@emp.Id">Инфо</a>&#8194;
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@emp.Id">Удалить</a>&#8194;
+                </td>
+            </tr>
+            }
+        </table>
+    </div>
+    
+

@@ -1,0 +1,13 @@
+﻿@model efcore_test.Models.Employee;
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<p>Удалить @Model.FirstName @Model.LastName?</p>
+
+<div>
+    <form asp-action="Delete">
+        <input type="submit" value="Удалить" class="btn-dark" />
+    </form>
+</div>
