@@ -63,7 +63,7 @@ namespace efcore_test.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(Employee employee)
         {
-            db.Entry(employee).State = EntityState.Modified;
+            db.Employees.Update(employee);
             await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
