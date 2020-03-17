@@ -17,7 +17,7 @@ namespace efcore_test.Controllers
         ApplicationContext db;
         ILoggerFactory loggerFactory = LoggerFactory.Create(options =>
         {
-            options.AddConsole();
+            options.ClearProviders();
         });
         ILogger logger;
 
@@ -28,6 +28,7 @@ namespace efcore_test.Controllers
             logger = loggerFactory.CreateLogger("FileLogger");
         }
 
+        
         public async Task<IActionResult> Index()
         {
             logger.LogInformation($"DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}");

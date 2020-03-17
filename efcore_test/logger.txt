@@ -91,3 +91,25 @@ DateTime: 17.03.2020 14:16:39 Method: GET Protocol: HTTP/1.1 Path: localhost:500
 DateTime: 17.03.2020 14:16:47 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/Home/Info/1
 DateTime: 17.03.2020 14:16:50 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/
 DateTime: 17.03.2020 14:17:02 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/
+DateTime: 17.03.2020 14:28:14 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/
+DateTime: 17.03.2020 14:28:17 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/Home/Info/12
+DateTime: 17.03.2020 14:28:19 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/
+DateTime: 17.03.2020 14:28:20 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/Home/Edit/12
+DateTime: 17.03.2020 14:28:22 Method: POST Protocol: HTTP/1.1 Path: localhost:5001/Home/Edit/12
+DateTime: 17.03.2020 14:28:22 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/
+$DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}
+$DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}
+$DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}
+$DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}
+$DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}
+DateTime: 17.03.2020 14:39:22 Method: GET Protocol: HTTP/2 Path: localhost:5001/
+DateTime: 17.03.2020 14:39:25 Method: GET Protocol: HTTP/2 Path: localhost:5001/Home/Info/12
+DateTime: 17.03.2020 14:39:26 Method: GET Protocol: HTTP/2 Path: localhost:5001/
+DateTime: 17.03.2020 15:12:45 Method: GET Protocol: HTTP/2 Path: localhost:5001/
+DateTime: 17.03.2020 15:26:41 Method: GET Protocol: HTTP/2 Path: localhost:5001/
+DateTime: 17.03.2020 15:26:48 Method: GET Protocol: HTTP/2 Path: localhost:5001/Home/Edit/12
+DateTime: 17.03.2020 15:26:57 Method: GET Protocol: HTTP/2 Path: localhost:5001/
+DateTime: 17.03.2020 15:33:24 Method: GET Protocol: HTTP/2 Path: localhost:5001/
+DateTime: 17.03.2020 15:38:18 Method: GET Protocol: HTTP/2 Path: localhost:5001/
+DateTime: 17.03.2020 15:42:12 Method: GET Protocol: HTTP/2 Path: localhost:5001/
+DateTime: 17.03.2020 15:42:15 Method: GET Protocol: HTTP/2 Path: localhost:5001/Home/Edit/1
