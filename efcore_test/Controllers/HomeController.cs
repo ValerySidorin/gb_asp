@@ -6,26 +6,37 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using efcore_test.Models;
+using efcore_test.Services;
 using Microsoft.EntityFrameworkCore;
+using System.IO;
 
 namespace efcore_test.Controllers
 {
     public class HomeController : Controller
     {
         ApplicationContext db;
+        ILoggerFactory loggerFactory = LoggerFactory.Create(options =>
+        {
+            options.AddConsole();
+        });
+        ILogger logger;
 
         public HomeController(ApplicationContext context)
         {
             db = context;
+            loggerFactory.AddFile("logger.txt");
+            logger = loggerFactory.CreateLogger("FileLogger");
         }
 
         public async Task<IActionResult> Index()
         {
+            logger.LogInformation($"DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}");
             return View(await db.Employees.ToListAsync());
         }
 
         public async Task<IActionResult> Info(int? id)
         {
+            logger.LogInformation($"DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}");
             if (id != null)
             {
                 Employee emp = await db.Employees.FindAsync(id);
@@ -38,11 +49,13 @@ namespace efcore_test.Controllers
         [HttpGet]
         public IActionResult Add()
         {
+            logger.LogInformation($"DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}");
             return View();
         }
         [HttpPost]
         public async Task<IActionResult> Add(Employee employee)
         {
+            logger.LogInformation($"DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}");
             db.Employees.Add(employee);
             await db.SaveChangesAsync();
             return RedirectToAction("Index");
@@ -51,6 +64,7 @@ namespace efcore_test.Controllers
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
+            logger.LogInformation($"DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}");
             if (id != null)
             {
                 Employee emp = await db.Employees.FindAsync(id);
@@ -63,6 +77,7 @@ namespace efcore_test.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(Employee employee)
         {
+            logger.LogInformation($"DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}");
             db.Entry(employee).State = EntityState.Modified;
             await db.SaveChangesAsync();
             return RedirectToAction("Index");
@@ -72,6 +87,7 @@ namespace efcore_test.Controllers
         [ActionName("Delete")]
         public async Task<IActionResult> ConfirmDelete(int? id)
         {
+            logger.LogInformation($"DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}");
             if (id != null)
             {
                 Employee emp = await db.Employees.FindAsync(id);
@@ -83,6 +99,7 @@ namespace efcore_test.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(int? id)
         {
+            logger.LogInformation($"DateTime: {DateTime.Now.ToString()} Method: {Request.Method} Protocol: {Request.Protocol} Path: {Request.Host + Request.Path}");
             if (id != null)
             {
                 Employee emp = new Employee(id.Value);

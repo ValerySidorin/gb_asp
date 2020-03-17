@@ -1,0 +1,93 @@
+Method: GET Processing request: /
+Method: GET Processing request: /Home/Info/1
+Method: GET Processing request: /
+Method: GET Processing request: /Home/Info/6
+Method: GET Processing request: /
+Method: GET Processing request: /Home/Edit/8
+Method: POST Processing request: /Home/Edit/8
+Method: GET Processing request: /
+Method: GET Processing request: /
+Method: GET Processing request: /Home/Edit/4
+Method: POST Processing request: /Home/Edit/4
+Method: GET Processing request: /
+Method: GET Processing request: /Home/Edit/8
+Method: POST Processing request: /Home/Edit/8
+Method: GET Processing request: /
+Method: GET Processing request: /
+Method: GET Processing request: /
+Method: GET Processing request: /Home/Info/1
+Method: GET Processing request: /
+Method: GET Processing request: /Home/Edit/1
+Method: POST Processing request: /Home/Edit/1
+Method: GET Processing request: /
+Method: GET Processing request: /Method: GET Processing request: /Home/Edit/8Method: POST Processing request: /Home/Edit/8Method: GET Processing request: /Method: GET Processing request: /
+Method: GET Processing request: /Home/Edit/1
+Method: POST Processing request: /Home/Edit/1
+Method: GET Processing request: /
+Result: Microsoft.AspNetCore.Http.QueryCollection
+Query: Microsoft.AspNetCore.Http.QueryCollection
+Query: Microsoft.AspNetCore.Http.QueryCollection
+Query: Microsoft.AspNetCore.Http.QueryCollection
+Query: Microsoft.AspNetCore.Http.QueryCollection
+Method: GET Path: HTTP/1.1localhost:44340/
+Method: GET Path: HTTP/1.1localhost:44340/Home/Edit/8
+Method: POST Path: HTTP/1.1localhost:44340/Home/Edit/8
+Method: GET Path: HTTP/1.1localhost:44340/
+Method: GET Path: HTTP/1.1localhost:44340/Home/Info/8
+Method: GET Path: HTTP/1.1localhost:44340/
+Method: GET Path: HTTP/1.1localhost:44340/Home/Edit/3
+Method: POST Path: HTTP/1.1localhost:44340/Home/Edit/3
+Method: GET Path: HTTP/1.1localhost:44340/
+Method: GET Path: HTTP/1.1localhost:44340/Home/Add
+Method: POST Path: HTTP/1.1localhost:44340/Home/Add
+Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:11:46 Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:11:50 Method: GET Path: HTTP/1.1localhost:44340/Home/Edit/9
+DateTime: 17.03.2020 14:11:53 Method: POST Path: HTTP/1.1localhost:44340/Home/Edit/9
+DateTime: 17.03.2020 14:11:53 Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:11:55 Method: GET Path: HTTP/1.1localhost:44340/Home/Edit/9
+DateTime: 17.03.2020 14:11:57 Method: POST Path: HTTP/1.1localhost:44340/Home/Edit/9
+DateTime: 17.03.2020 14:11:57 Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:11:58 Method: GET Path: HTTP/1.1localhost:44340/Home/Edit/1
+DateTime: 17.03.2020 14:12:00 Method: POST Path: HTTP/1.1localhost:44340/Home/Edit/1
+DateTime: 17.03.2020 14:12:00 Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:12:01 Method: GET Path: HTTP/1.1localhost:44340/Home/Edit/1
+DateTime: 17.03.2020 14:12:04 Method: POST Path: HTTP/1.1localhost:44340/Home/Edit/1
+DateTime: 17.03.2020 14:12:04 Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:12:05 Method: GET Path: HTTP/1.1localhost:44340/Home/Edit/4
+DateTime: 17.03.2020 14:12:07 Method: POST Path: HTTP/1.1localhost:44340/Home/Edit/4
+DateTime: 17.03.2020 14:12:07 Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:12:08 Method: GET Path: HTTP/1.1localhost:44340/Home/Edit/6
+DateTime: 17.03.2020 14:12:12 Method: POST Path: HTTP/1.1localhost:44340/Home/Edit/6
+DateTime: 17.03.2020 14:12:12 Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:12:14 Method: GET Path: HTTP/1.1localhost:44340/Home/Info/5
+DateTime: 17.03.2020 14:12:15 Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:12:17 Method: GET Path: HTTP/1.1localhost:44340/Home/Add
+DateTime: 17.03.2020 14:12:27 Method: POST Path: HTTP/1.1localhost:44340/Home/Add
+DateTime: 17.03.2020 14:12:27 Method: GET Path: HTTP/1.1localhost:44340/
+DateTime: 17.03.2020 14:14:10 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/
+DateTime: 17.03.2020 14:14:16 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/Home/Delete/10
+DateTime: 17.03.2020 14:14:17 Method: POST Protocol: HTTP/1.1 Path: localhost:44340/Home/Delete/10
+DateTime: 17.03.2020 14:14:17 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/
+DateTime: 17.03.2020 14:14:18 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/Home/Add
+DateTime: 17.03.2020 14:14:24 Method: POST Protocol: HTTP/1.1 Path: localhost:44340/Home/Add
+DateTime: 17.03.2020 14:14:24 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/
+DateTime: 17.03.2020 14:14:25 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/Home/Add
+DateTime: 17.03.2020 14:14:30 Method: POST Protocol: HTTP/1.1 Path: localhost:44340/Home/Add
+DateTime: 17.03.2020 14:14:30 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/
+DateTime: 17.03.2020 14:14:33 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/Home/Delete/4
+DateTime: 17.03.2020 14:14:34 Method: POST Protocol: HTTP/1.1 Path: localhost:44340/Home/Delete/4
+DateTime: 17.03.2020 14:14:34 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/
+DateTime: 17.03.2020 14:14:38 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/Home/Info/1
+DateTime: 17.03.2020 14:14:38 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/
+DateTime: 17.03.2020 14:14:39 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/Home/Edit/1
+DateTime: 17.03.2020 14:14:42 Method: POST Protocol: HTTP/1.1 Path: localhost:44340/Home/Edit/1
+DateTime: 17.03.2020 14:14:42 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/
+DateTime: 17.03.2020 14:16:32 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/
+DateTime: 17.03.2020 14:16:35 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/Home/Info/12
+DateTime: 17.03.2020 14:16:37 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/
+DateTime: 17.03.2020 14:16:38 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/Home/Info/8
+DateTime: 17.03.2020 14:16:39 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/
+DateTime: 17.03.2020 14:16:47 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/Home/Info/1
+DateTime: 17.03.2020 14:16:50 Method: GET Protocol: HTTP/1.1 Path: localhost:5001/
+DateTime: 17.03.2020 14:17:02 Method: GET Protocol: HTTP/1.1 Path: localhost:44340/
