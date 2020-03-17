@@ -72,6 +72,7 @@ namespace efcore_test.Controllers
                 if (emp != null)
                     return View(emp);
             }
+            
             return NotFound();
         }
 
@@ -95,7 +96,7 @@ namespace efcore_test.Controllers
                 return View(emp);
             }
             return NotFound();
-        }
+        } 
 
         [HttpPost]
         public async Task<IActionResult> Delete(int? id)
